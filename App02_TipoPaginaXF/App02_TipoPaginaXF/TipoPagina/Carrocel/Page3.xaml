@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TipoPaginaXF.TipoPagina.Carrocel.Page3"
+             BackgroundColor="LightSteelBlue" >
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="LightSteelBlue" VerticalOptions="CenterAndExpand">
+            <Label Text="Tipo de Pagina" TextColor="Blue" HorizontalOptions="CenterAndExpand" />
+            <Button Image="Play.png" Clicked="MudarPagina" BackgroundColor="Transparent"/>
+
+            <Button Text="Tab" Clicked="Tab" BackgroundColor="Green"/>
+            <Button Text="Master Detail" Clicked="MasterDet" BackgroundColor="YellowGreen"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

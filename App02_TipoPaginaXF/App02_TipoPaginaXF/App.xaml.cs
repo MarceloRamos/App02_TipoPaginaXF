@@ -2,7 +2,7 @@ using System;
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
-[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
+//[assembly: XamlCompilation (XamlCompilationOptions.Compile)]
 namespace App02_TipoPaginaXF
 {
 	public partial class App : Application
@@ -11,8 +11,10 @@ namespace App02_TipoPaginaXF
 		{
 			InitializeComponent();
 
-			MainPage = new MainPage();
-		}
+			//MainPage = new MainPage();
+
+            MainPage = new TipoPagina.Carrocel.IntroducaoApp();
+        }
 
 		protected override void OnStart ()
 		{

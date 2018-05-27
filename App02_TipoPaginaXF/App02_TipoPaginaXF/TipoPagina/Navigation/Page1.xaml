@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App02_TipoPaginaXF.TipoPagina.Navigation.Page1">
+    <ContentPage.Title>
+        TITULO PAGINA 1
+    </ContentPage.Title>
+    <ContentPage.ToolbarItems>
+        <ToolbarItem Text="Pesquisa" Icon="xamarin.png"></ToolbarItem>
+        <ToolbarItem Text="Atualizar" Icon="page.png"></ToolbarItem>
+        <ToolbarItem Text="Excluir"></ToolbarItem>
+    </ContentPage.ToolbarItems>
+
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="EU SOU A 1º PAGINA"
+                VerticalOptions="CenterAndExpand" 
+                HorizontalOptions="CenterAndExpand" />
+
+            <Button Text="PAGINA 2" Clicked="btnIrPagina2"></Button>
+
+            <Button Text="MODAL" Clicked="btnIrModal"></Button>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
